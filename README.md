@@ -14,17 +14,22 @@
    source venv/bin/activate
    ```
 
-3. Install the required dependencies:
+3. Create a `requirements.txt` file and add the following dependency:
+   ```bash
+   Flask
+   ```
+
+4. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the application:
+5. Run the application:
    ```bash
    python app/main.py
    ```
 
-5. Open your web browser and navigate to `http://127.0.0.1:5000` to view the slides.
+6. Open your web browser and navigate to `http://127.0.0.1:5000` to view the slides.
 
 ## Using the Slide Generation Feature
 
